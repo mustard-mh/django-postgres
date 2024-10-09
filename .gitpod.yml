@@ -2,8 +2,8 @@ tasks:
   - init: docker-compose build
     command: docker-compose up
   - init: |
-    mkdir -p ~/.config/JetBrains/PyCharm2024.2.1
-    echo "-Dide.browser.jcef.enabled=false" >> ~/.config/JetBrains/PyCharm2024.2.1/pycharm64.vmoptions
+      mkdir -p ~/.config/JetBrains/PyCharm2024.2.1
+      echo "-Dide.browser.jcef.enabled=false" >> ~/.config/JetBrains/PyCharm2024.2.1/pycharm64.vmoptions
 
 ports:
   - port: 8000
